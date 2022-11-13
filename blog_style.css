@@ -1,0 +1,68 @@
+/* Dark blue: #2D3D4B
+Blue-Gray: #A8BAC9
+Sage-Green: #8DABA4
+Marine-blue: #5580B5 */
+
+html {
+    box-sizing: bprder-box;
+}
+*, *:before, *after {
+    box-sizing: inherit;
+}
+body {
+    /* text-align: center; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #2D3D4B;
+    color-scheme: dark;
+    color: #A8BAC9;
+}
+.container {
+    position: relative;
+}
+img {
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
+.name {
+    /* padding: 40px; */
+    position: absolute; 
+    /* top: 20px;
+    left: 16px; */
+    top: 20%;
+    left: 5%;
+    font-family: 'Sonsie One', cursive;
+}
+h2 {
+    /* position: relative; */
+    text-align: center;
+    /* text-align: justify; */
+    /* background-color: #8DABA4; */
+    position: absolute; 
+    top: 75%;
+    left: 10%;
+    bottom: 40%;
+    right: 10%;
+    color: #A8BAC9;
+    font-family: 'Dancing Script', cursive;
+    /* font-size: larger; */
+    /* padding: 20px 40px; */
+}
+h3 {
+    text-align: center;
+}
+main {
+    position: relative;
+}
+#mad_skills {
+    position: relative;
+    float: right;
+    width: 40%;
+    padding: 40px;
+}
+#work_history {
+    position: relative;
+    float: left;
+    width: 40%;
+    padding: 40px;
+}
