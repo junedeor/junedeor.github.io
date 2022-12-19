@@ -1,0 +1,131 @@
+/* Dark blue: #2D3D4B
+Blue-Gray: #A8BAC9
+Sage-Green: #8DABA4
+Marine-blue: #5580B5 */
+
+/* html {
+    box-sizing: bprder-box;
+}
+*, *:before, *after {
+    box-sizing: inherit;
+} */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #2D3D4B;
+    color-scheme: dark;
+    color: #A8BAC9;
+
+}
+.header_container {
+    position: relative;
+    height: 20vh;
+}
+img {
+    width: 100%;
+    height: auto;
+    opacity: 0.15;
+}
+.name {
+    position: absolute; 
+    top: 20%;
+    left: 5%;
+    font-family: 'Sonsie One', cursive;
+}
+#intro {
+    text-align: center;
+    position: absolute; 
+    top: 75%;
+    left: 10%;
+    bottom: 40%;
+    right: 10%;
+    color: #A8BAC9;
+    font-family: 'Dancing Script', cursive;
+}
+/* main {
+    position: relative;
+} */
+
+#history-wrapper {
+    /* display: grid;
+    grid-template-columns: 50% 50%; */
+    text-align: center;
+    margin: 1em auto;
+    padding: 5em;
+    padding-bottom: 0.25em;
+    justify-items: center;
+    /* justify-content: space-evenly; */
+    /* flex-flow: column wrap; */
+    
+}
+#future-wrapper {
+    display: flex;
+    text-align: center;
+    margin-left: 5em auto;
+    margin-right: 5em auto;
+    /* padding-top: 1em; */
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    /* flex-flow: column wrap; */
+    
+}
+#paragraph {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em ;
+}
+#future {
+    text-align: center;
+    margin-left: 5em;
+    margin-right: 5em;
+    padding-bottom: 1em;
+}
+#contact {
+    text-align: center;
+    /* margin-left: 5em;
+    margin-right: 5em; */
+    padding-top: 2em;
+}
+h2 {
+    /* text-align: center; */
+    /* position: absolute;  */
+    top: 75%;
+    left: 10%;
+    bottom: 40%;
+    right: 10%;
+    color: #A8BAC9;
+    font-family: 'Dancing Script', cursive;
+}
+/* #about_me {
+    /* width: 300px;*/
+    /* height: 300px; */
+    /* background: #8DABA4; */
+    /* border-radius: 50%;  */
+
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* grid-column-start: 1; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* padding: 25px;  */
+
+/*#work_history {
+    grid-column-start: 3;
+    /* width: 300px;
+    height: 300px;
+    background: #8DABA4;
+    border-radius: 50% */
+
+/* #about_me>p {
+    justify-content: center;
+} */
+
+@media (min-width:733px) {
+#history-wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 1em auto;
+    justify-items: center;
+    /* justify-content: space-evenly; */
+    /* flex-flow: column wrap; */
+    } 
+}
