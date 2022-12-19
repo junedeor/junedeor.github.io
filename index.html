@@ -6,57 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Blog</title>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-    <link rel="stylesheet" type="text/css" href="https://junedeor.github.io/blog_style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Sacramento&family=Sonsie+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/68d36e6b21.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- <header> -->
-    <div class="container">
-        <img src="Bristoll.jpeg" alt="Blue Mermaid"/>
-        <h1 class="name"> Rachel Cleaver</h1>
-    <!-- </div> -->
-        <!-- <div id="bio"> -->
-        <h2>
-            I'm a born and bred PNW girl, who, after 20 years of wandering, has finally returned to the best coast. I enjoy reading, interesting puzzles, being outdoors, and of course, traveling.
-        </h2>
-        <!-- </div> -->
-    </div>
-    <!-- </header> -->
+    <header>
+        <div class="header_container">
+            <img src="Bristoll.jpeg" alt="Blue Mermaid"/>
+            <h1 class="name"> Rachel Cleaver</h1>
+            <h2 id="intro">
+                I'm a born and bred PNW girl, who, after years of wandering, has finally returned to the best coast. I love reading, interesting puzzles, being outdoors, and of course, traveling.
+            </h2>
+        </div>
+    </header>
     <main>
-        <div id="work_history">
-            <h3>Where I've been</h3>
-            <ul>
-                <li>Tactical Operations Analyst 2014-2020</li>
-                <li>Defense Language Institute Instructor 2011-2014</li>
-                <li>Linguist / Intelligence Analyst 2004-2011</li>
-                <li>Aviation Electronics Technician 2000=2004</li>
-            </ul>
+        <div id="history-wrapper">
+            <div id="paragraph">
+                <p>I've spent the last 20 years on the move, traveling and living across the US, South America, Europe and Africa. I've had the opportunity to work with, and learn from, so many amazing people across diverse fields and walks of life.</p>
+            </div>
+            <div id="paragraph">
+                <p> Throughout my career I've held a variety of roles and took on challenging assignments that enabled me to hone my skills in Wireless Communications, Intelligence Analysis, Field Operations / Logistics, and Language Instruction.
+                </p>
+            </div>
         </div>
-        <div id="mad_skills">
-            <h3>What I've been doing</h3>
-            <ul>
-                <li>Mobile Device Forensics Analysis</li>
-                <ul>
-                    <li>Field Operations</li>
-                    <li>Data Management</li>
-                </ul>
-                <li>Intelligence Analysis</li>
-                <ul>
-                    <li>Report Preparation</li>
-                    <li>Briefing</li>
-                </ul>
-                <li>Programming</li>
-                <ul>
-                    <li>Python</li>
-                    <li>HTML/CSS</li>
-                    <li>Django</li>
-                    <li>JavaScript</li>
-                </ul>
-            </ul>
+        <div id="future-wrapper"></div>
+            <div id="future">
+                <p> Now I'm ready for something different: I recently finished a Bachelors of Science in Criminal Justice with a Major in Digital Forensics and am currently learning full stack web development.</p>
+                    <span><i class="fa-brands fa-html5"></i></span>
+                    <span><i class="fa-brands fa-python"></i></span>
+                    <span><i class="fa-brands fa-square-js"></i></span>
+                    <span><i class="fa-brands fa-vuejs"></i></span>
+            </div>
         </div>
-        
     </main>
+    <footer>
+        <div id="contact">
+            <h2>Contact Me</h2>
+            <span><i class="fa-brands fa-linkedin"></i></span>
+            <span><i class="fa-brands fa-github"></i></span>
+        </div>
+    </footer>   
 </body>
 </html>
